@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kurd Academy</title>
+  <link rel="stylesheet" href="/src/nav.css">
+   <link rel="stylesheet" href="/lib/bootstrap.min.css">
+  <script src="/lib/jquery-3.6.0.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <script src="/src/login.js"> </script>
+  <link rel="stylesheet" href="/src/footer.css">
+  <link rel="stylesheet" href="/src/login.css">
+</head>
+
+
+<body>
+    <!--------------------------------------------------------------------NavBar-------------------------------------------  -->
+    <div class="flex-container">
+      <div>
+        <a href="/src/login.htm" class="btn btn-primary"  >Login</a>
+      </div>
+      <div>
+        <a href="signup.htm" class="btn btn-primary btn-signup" >SignUp</a>
+
+      </div>
+     
+      <div>
+        <a href="/src/index.htm">
+          <img src="/img/black-logo.svg" style="width: 160px; margin-left: 150px;" alt="">
+
+        </a>
+      </div>  
+      <div class="gridSearch">
+       <div>
+         <button class="btn btn-primary"  >Search</button>
+       </div>
+       <div>
+        <input type="search" name="" id="search" placeholder="Search..">
+       </div>
+      </div>
+      
+    </div>
+          <!--------------------------------------------------------------------EndNavBar-------------------------------------------  -->
+
+          <!---------------------------------------------Login------------------------------------------------>
+          <div class="above-login container "   style="margin-top: 50px; margin-bottom: 30px;">
+            <p>Log In to  Your Kurd Academy Account! </p>
+          </div>
+          <div class="container grid-item-div"   >
+
+            <div    class="grid-item-login" >
+
+             <a href="#" class="grid-item-anchor">
+              <i class="bi bi-facebook"  ></i>
+              <p>Continue With Facebook</p>
+
+             </a>
+            </div>
+        
+            <div    class="grid-item-login" >
+
+              <a href="#" class="grid-item-anchor">
+               <i class="bi bi-google"  ></i>
+               <p>Continue With Google</p>
+ 
+              </a>
+             </div>
+             <div    class="grid-item-login" >
+
+              <a href="#" class="grid-item-anchor">
+               <i class="bi bi-github"  ></i>
+               <p>Continue With Github  </p>
+ 
+              </a>
+             </div>
+ 
+<form action="" name="login" class="form">
+
+
+<input type="email" name="email" id="email" class="btn-grid-login" placeholder="Email">
+<input type="password" name="pass" id="pass" class="btn-grid-login" placeholder="Password">
+
+ <a class="btn btn-primary"  onclick="check()"    style="width: 308px; ">Log In</a>
+</form>
+<a href="#" style=" text-decoration: none; color: #6A1B9D;" value="Login">or Forgot Password</a>
+
+<p style="margin-top: 10px; margin-bottom: 100px;">Don't have an account?<a style="color: #6A1B9D;" href="signup.htm">  Sign up</a></p>
+          </div>
+
+
+
+           <!---------------------------------------------Login------------------------------------------------>
+ 
+            <!------------------------------Footer------------------------------------------------->
+  <div  class="footer-clean">
+    <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="#">Web design</a></li>
+              <li><a href="#">Development</a></li>
+              <li><a href="#">Hosting</a></li>
+              <li><a href="#">Testing App</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>About</h3>
+            <ul>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Legacy</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Careers</h3>
+            <ul>
+              <li><a href="#">Job openings</a></li>
+              <li><a href="#">Employee success</a></li>
+              <li><a href="#">Benefits</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 item social">
+            <a href="#">
+              <i class="bi bi-github"> </i></a><a href="#">
+              <i class="bi bi-linkedin">
+
+              </i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
+            <p class="copyright">Kurd Academy © 2022</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!------------------------------Footer------------------------------------------------->
+ 
+
+
+  <script>
+ function check( ) { /*       function to check userid & password        */
+            /*the following code checkes whether the entered userid and password are matching*/
+            if( email.value == "hemn@gmail.com" && pass.value == "hemn@gmail.com") {
+               // window.open('home.htm')/*opens the target page while Id & password matches*/
+               window.location.replace("home.htm");
+            }
+            else {
+                alert("Error Password or Username")/*displays error message*/
+            }
+        }
+  </script>
+</body>
+
+
+</html>

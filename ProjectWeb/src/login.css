@@ -1,0 +1,47 @@
+.navbar-brand{
+    margin-left: 22.5vw;
+}
+li{
+   margin-left: 5px;
+}
+
+ 
+
+
+  .grid-item-div{
+    width: 332px; text-align: center;
+
+   }
+  .grid-item-login{
+     margin-bottom: 10px; 
+    margin-top: 2%;
+    padding: 10px;    border-style: solid;
+    border-width: 1px;
+    border-color: #C4C4C4;
+
+  }
+  .grid-item-login:hover{
+    background-color: whitesmoke;
+
+  }
+
+  .grid-item-anchor{
+    display: grid; grid-template-columns: auto auto; text-decoration: none;
+  }
+
+
+  .btn-grid-login{
+    width: 308px; height: 60px; padding-left: 12px; padding-right: 12px; 
+    margin-bottom: 10px;
+  }
+  .above-login{
+    width: 400px;
+     
+    border-style: solid;
+    border-width:1px;
+    border-color: #C4C4C4;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    
+  }

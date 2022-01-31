@@ -1,0 +1,172 @@
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  #userBtn{
+      border-radius: 30px;
+      width: 60px;
+      background-color:#1C1D1F ;
+  }
+  #userCategories{
+    border-radius: 30px;
+    width: 60px;
+    background-color: white ;
+  }
+
+  
+  .grid-container {
+    display: grid;
+    grid-gap: 30px 20px;
+    grid-template-columns: auto auto  auto auto  ;
+    
+    padding: 50px;
+  }
+  @media screen and(min-width: 1110px) {
+    .grid-container { 
+      grid-template-columns: auto auto  auto    ;
+    }
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .grid-item-left{
+    text-align: left;
+    text-decoration: none;
+  }
+.btn-grid-item{
+  color: #1C1D1F;
+}
+  .btn-grid-item::hover{
+font-size: 40px;  }
+ 
+#categories{
+   
+  height: 26px;
+  margin-top: 20px;
+}
+
+ /* _____________________categories___________________________*/
+ 
+ .dropbtnc {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtnc:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdownc {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-contentc {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-contentc a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdownc a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+#userBtnc{
+    border-radius: 30px;
+    width: auto;
+    background-color:#1C1D1F ;
+}
+#userCategoriesc{
+  border-radius: 30px;
+  width: 60px;
+  background-color: white ;
+}
+
+
+.grid-containerc {
+  display: grid;
+  grid-gap: 30px 20px;
+  grid-template-columns: auto auto  auto auto    ;
+  
+  padding: 50px;
+}
+
+
+.grid-itemc {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item-leftc{
+  text-align: left;
+  text-decoration: none;
+}
+.btn-grid-itemc{
+color: #1C1D1F;
+}
+.btn-grid-itemc::hover{
+font-size: 40px;  }
+
+#categoriesc{
+ 
+height: 26px;
+margin-top: 20px;
+}
+
